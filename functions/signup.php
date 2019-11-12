@@ -3,7 +3,7 @@
 	function signup($mail, $username, $password, $host)
 	{
 		include_once '../config/database.php';
-		include_once '../functions/mail.php';
+		include_once 'mail.php';
 
 		$mail = strtolower($mail);
 
@@ -29,7 +29,6 @@
 			$token = uniqid(rand(), true);
 			$sql->execute(array(':username' => $username, ':mail' => $mail, ':password' => $password, ':token' => $token));
 			send_verification_email($mail, $username, $token, $host);
-
 			$_SESSION['signup_success'] = true;
 			return (0);
 		}

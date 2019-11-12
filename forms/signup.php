@@ -39,7 +39,7 @@
 		return;
 	}
 
-	$url = $_SERVER['HTTP_HOST'] . str_replace("/forms/signup.php", "", $_SERVER['REQUEST_URI']);
+	$url = $_SERVER['HTTP_HOST'] . str_replace("camagru/project/forms/signup.php", "", $_SERVER['REQUEST_URI']);
 
 	signup($mail, $username, $password, $url);
 

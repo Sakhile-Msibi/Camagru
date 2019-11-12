@@ -16,7 +16,7 @@
 			<body>
 				Hello ' . htmlspecialchars($toUsername) . ' </br>
 				To complete your subscription please click the link below </br>
-				<a href="http://' . $ip . '/verify.php?token=' . $token . '">Verify my email</a>
+				<a href="http://' . $ip . 'camagru/project/verify.php?token=' . $token . '">Verify my email</a>
 			</body>
 		</html>';
 

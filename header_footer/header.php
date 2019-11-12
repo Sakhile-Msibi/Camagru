@@ -29,5 +29,13 @@
 					Views
 				</span>
 			</div>
-	<?PHP } ?>
+<?PHP }
+else
+{ ?>
+		 <div class="button" onclick="location.href='gallery.php'">
+                <span>
+                    Gallery
+                </span>
+			</div>
+<?PHP } ?>
 </div>

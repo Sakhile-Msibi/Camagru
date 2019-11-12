@@ -2,8 +2,8 @@
 
 	function reset_password($userMail)
 	{
-		include_once '../setup/database.php';
-		include_once '../functions/mail.php';
+		include_once '../config/database.php';
+		include_once 'mail.php';
 
 		try
 		{
@@ -24,7 +24,7 @@
 			$pass = uniqid('');
 			$passEncrypt = hash("whirlpool", $pass);
 
-			$sql= $conn->prepare("UPDATE users SET password=:password WHERE mail=:mail");
+			$sql= $conn->prepare("UPDATE $db_name.users SET password=:password WHERE mail=:mail");
 			$sql->execute(array(':password' => $passEncrypt, ':mail' => $userMail));
 			$sql->closeCursor();
 
