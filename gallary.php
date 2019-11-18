@@ -22,24 +22,24 @@
 			{ ?>
 				<div class="main">
 					<div class="select">
-						<img class="thumbnail" src="img/cadre.png"></img>
-						<input id="cadre.png" type="radio" name="img" value="./img/cadre.png" onclick="onCheckBoxChecked(this)">
-						<img class="thumbnail" src="img/cigarette.png"></img>
-						<input id="cigarette.png" type="radio" name="img" value="./img/cigarette.png" onclick="onCheckBoxChecked(this)">
-						<img class="thumbnail" src="img/hat.png"></img>
-						<input id="hat.png" type="radio" name="img" value="./img/hat.png" onclick="onCheckBoxChecked(this)">
+						<img class="thumbnail" src="images/cadre.png"></img>
+						<input id="cadre.png" type="radio" name="images" value="./images/cadre.png" onclick="onCheckBoxChecked(this)">
+						<img class="thumbnail" src="images/cigarette.png"></img>
+						<input id="cigarette.png" type="radio" name="images" value="./images/cigarette.png" onclick="onCheckBoxChecked(this)">
+						<img class="thumbnail" src="images/hat.png"></img>
+						<input id="hat.png" type="radio" name="images" value="./images/hat.png" onclick="onCheckBoxChecked(this)">
 					</div>
 					<video width="100%" autoplay="true" id="webcam"></video>
 					<div id="camera-not-available">CAMERA NOT AVAILABLE</div>
-					<img id="hat" style="display:none;" src="img/hat.png"></img>
-					<img id="cigarette" style="display:none;" src="img/cigarette.png"></img>
-					<img id="cadre" style="display:none;" src="img/cadre.png"></img>
+					<img id="hat" style="display:none;" src="images/hat.png"></img>
+					<img id="cigarette" style="display:none;" src="images/cigarette.png"></img>
+					<img id="cadre" style="display:none;" src="images/cadre.png"></img>
 					<div class="capture" id="pickImage">
-						<img class="camera" src="img/camera.png"></img>
+						<img class="camera" src="images/camera.png"></img>
 					</div>
 					<canvas id="canvas" style="display:none;" width="640" height="480"></canvas>
 					<div class="captureFile" id="pickFile">
-						<img class="camera" src="img/camera.png"></img>
+						<img class="camera" src="images/camera.png"></img>
 					</div>
 					<input type="file" id="take-picture" style="display:none;" accept="image/*">
 				</div>
@@ -57,7 +57,7 @@
 									{
 										$class .= " removable";
 									}
-									$gallery .= "<img class=\"" . $class . "\" src=\"./montage/" . $montages[$i]['img'] . "\" data-userid=\"" . $montages[$i]['userid'] . "\"></img>";
+									$gallery .= "<img class=\"" . $class . "\" src=\"./montage/" . $montages[$i]['images'] . "\" data-userid=\"" . $montages[$i]['userid'] . "\"></images>";
 								}
 								echo $gallery;
 							}
