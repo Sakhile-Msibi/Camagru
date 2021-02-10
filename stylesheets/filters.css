@@ -1,0 +1,31 @@
+.text_filter
+{
+    text-align: center;
+    font-size: 2em;
+    font-family: Marker Felt, fantasy;
+    color: lavenderblush;
+}
+
+.container_filters
+{
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+}
+
+.button_filter
+{
+	background-color: rgba(0,128,128,0.5);
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10px;
+}
+
+.filter
+{
+	width: 100px;
+	cursor: pointer;
+}
