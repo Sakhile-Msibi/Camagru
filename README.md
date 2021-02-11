@@ -1,11 +1,11 @@
-## Matcha
+## Camagru
 <p align="center">
   <img src="./montage/images/camagru.png" width="90%"/>
 </p>
 
-The aim of this project is to create a dating website. The app allows two potential lovers to meet,
-from the registration to the final encounter. A user should be able to register, connect, fill his/her profile, search and look into
-the profile of other users, like them, chat with those that “liked” back.
+The aim of this project is to create a web application that allow users to make basic photo and video editing using a webcam and some predefined images.
+Application users should be able to select an image in a list of superposable images, take a picture with his/her webcam and admire the result that should be mixing
+both pictures.
 
 ## Table of contents
 * [General info](#general-info)
@@ -14,15 +14,16 @@ the profile of other users, like them, chat with those that “liked” back.
 * [App structure](#app-structure)
 
 ## General info
-Matcha is one of the web based project that software engineering trainees do at WeThinkCode_. Only micro-frameworks are allowed to be used to build the application.
-Object-relational mapping (ORM), validators or User Accounts Manager should not be used to create the application.
-All forms must have correct validations and the whole website must be secure.
+Camagru is one of the web based project that software engineering trainees do at WeThinkCode_. PHP language must be used to create the server-side, with just
+the standard library. Every framework, micro-framework or library that you don’t create are totally
+forbidden, except for CSS frameworks that doesn’t need forbidden JavaScript. All forms must have correct validations and the whole website must be secure.
 
 ## Technologies
 Technologies are used in this project:
-* Express.js
-* Node.js
-* Embedded javascript template (ejs)
+* PHP
+* JavaScript
+* HTML
+* CSS
 * Windows, Apache, MySQL and PHP (WAMP)
 
 ## Installation
