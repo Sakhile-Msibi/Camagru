@@ -1,6 +1,6 @@
 ## Matcha
 <p align="center">
-  <img src="./public/matcha.png" width="90%"/>
+  <img src="./montage/images/camagru.png" width="90%"/>
 </p>
 
 The aim of this project is to create a dating website. The app allows two potential lovers to meet,
