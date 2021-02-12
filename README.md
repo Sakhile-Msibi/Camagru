@@ -29,51 +29,50 @@ Technologies are used in this project:
 ## Installation
 To run this project locally, go to WAMP/apache2/htdocs then clone the git repository
 ```
-$ git clone https://github.com/Sakhile-Msibi/Matcha.git
-$ cd Matcha
-$ npm install
-$ npm start
+$ git clone https://github.com/Sakhile-Msibi/Camagru.git
+$ cd Camagru
 ```
-Make sure that the correct credentials are written in the files in the config directory to be able to the apache2 web server and MySQL database.
+Make sure that the correct credentials are written in the files in the config directory to be able to connect to the apache2 web server and MySQL database.
 
 ## App structure
+* Admin - user administration files
+    * connection.php
+    * disconnect.php
+    * registration.php
+    * reset_password.php
+    * validation.php
+
 * Config - files used to configure the database
-    * conn.js
-    * database.js
-* Public - CSS directory, images directory
-* routes
-    * block_user.js
-    * catfish.js
-    * chat.js
-    * confirmation.js
-    * forgot_password.js
-    * home.js
-    * index.js
-    * loginchecker.js
-    * message.js
-    * notice.js
-    * password_reset.js
-    * profile_edit.js
-    * profile.js
-    * register.js
-    * search_user.js
-    * signin.js
-    * signout.js
-    * unblock_user.js
-    * user.js
-* views
-    * chat.ejs
-    * footer.js
-    * forgot_password.ejs
-    * header.ejs
-    * home.ejs
-    * index.ejs
-    * message.ejs
-    * notice.ejs
-    * password_reset.ejs
-    * profile_edit.ejs
-    * profile.ejs
-    * search_user.ejs
-    * signin.ejs
-    * user.ejs
-* app.js
+    * database.php
+    * drop.php
+    * pdo.php
+    * setup.php
+* Edit_user
+    * next.php
+    * profile.php
+* montage
+    * images - images directory
+    * ajax.php
+    * filters.php
+    * gallery.php
+    * montage.php
+    * snapshot.js
+    * webcam.php
+* stylessheets - CSS directory
+    * connection.css
+    * dialogbox.css
+    * filters.css
+    * gallery.css
+    * index.css
+    * montage.css
+    * profile.css
+    * registration.css
+    * reset_password.css
+    * webcam.css
+* ajax.php
+* author
+* dialog.js
+* dialogbox.php
+* index.php
+* pagination.php
+* picture.php
