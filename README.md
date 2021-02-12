@@ -3,7 +3,7 @@
   <img src="./montage/images/camagru.png" width="90%"/>
 </p>
 
-The aim of this project is to create a web application that allow users to make basic photo and video editing using a webcam and some predefined images.
+The aim of this project was to create a web application that allow users to make basic photo and video editing using a webcam and some predefined images.
 Application users should be able to select an image in a list of superposable images, take a picture with his/her webcam and admire the result that should be mixing
 both pictures.
 
